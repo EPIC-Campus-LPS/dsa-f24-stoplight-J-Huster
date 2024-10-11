@@ -6,7 +6,7 @@
 - Create a circuit to light up 3 light bulbs - *Remember each 3V coin battery is equivalent to a GPIO pin on your Raspberry Pi*
 - Take a screenshot of your circuit
 
-- [ ] Take a screenshot of your circuit and upload it to this repository 
+- [x] Take a screenshot of your circuit and upload it to this repository 
 ## Part II - Python3
 
 - Redo part I with real components; however, for your power source, use GPIO pins on your Raspberry Pi. _Turn off your Pi when connecting cables to the GPIO ports._
@@ -15,7 +15,7 @@
 - Add comments to your Python script to explain how it works.
 - Take a short video of your stoplight working and a clear top-down photo of your wiring
 
-- [ ] Upload `led_stoplight.py`, the video, and the photo to this repository then continue to Part II
+- [x] Upload `led_stoplight.py`, the video, and the photo to this repository then continue to Part II
 
 ## Part III - RBG LED  
 
@@ -25,7 +25,7 @@
 - Add comments to your Python script to explain how it works.
 - Take a clear top-down photo of your wiring
 
-- [ ] Upload `rgb_stoplight.py` and your photo then continue to Part IV
+- [x] Upload `rgb_stoplight.py` and your photo then continue to Part IV
 ## Part IV - Starting with a Button
 
 - In a new script `button_stoplight.py`, add a button or touch module to your project to start your RGB stoplight. When the button is pressed the light should light up in the green, yellow, red pattern.
@@ -33,18 +33,20 @@
 - In order to use a button, set the `S` pin to an input with `GPIO.setup(pin_number, GPIO.IN)`. It the button is pressed, `GPIO.input(pin_number)` will be equal to 0. If it is unpressed, `GPIO.input(pin_number)` will be equal to 1.
 - Take a short video of your button starting the stoplight and the pattern appearing correctly
 
-- [ ] Upload `button_stoplight.py`  and the video to this repository then continue to Part V - Wrap Up
+- [x] Upload `button_stoplight.py`  and the video to this repository then continue to Part V - Wrap Up
 ## Part V - Wrap Up
 
 - Make sure all the deliverables above are  uploaded to the repository
 - Answer the following questions:
 
-1. What is a Python library and how do you include one in your script?
+1. What is a Python library and how do you include one in your script?<br />
+It stores programs pertaining to specific use to make coding more efficient.
 
-2. What does it mean for elements of a circuits to be in series vs. in parallel?
+2. What does it mean for elements of a circuits to be in series vs. in parallel?<br />
+When the elements are in a series the power is moving from one element to the next. When they are parallel the power is moving either elemnt to another element. 
 
-3. Can you create a circuit of 3 light bulbs in series? Why or why not?
-
+3. Can you create a circuit of 3 light bulbs in series? Why or why not?<br />
+Yes, the power will move from one light bulb to the next, however the power will decrease as it goes from one to the next. This works because the power can travel through the light bulb using the positive and negative prongs. 
 
 ## Rubric 
 
